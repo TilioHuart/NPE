@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
 
-file(GLOB_RECURSE src "src/*.cpp")
-
 add_library(NpeRenderer STATIC
     src/Renderer.cpp
 )
